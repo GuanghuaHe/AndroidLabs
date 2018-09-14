@@ -54,8 +54,6 @@
 
         android:id="@+id/switchToggle"
 
-        android:switchPadding="100dp"
-
         android:layout_width="wrap_content"
 
         android:layout_height="wrap_content"
@@ -76,7 +74,7 @@
 
         android:id="@+id/imageButton"
 
-        android:layout_width="135dp"
+        android:layout_width="wrap_content"
 
         android:layout_height="wrap_content"
 
@@ -89,7 +87,6 @@
         android:layout_column="1"
 
         android:src="@android:drawable/ic_menu_camera" />
-
 
     </GridLayout>
 
