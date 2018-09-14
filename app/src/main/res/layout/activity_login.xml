@@ -9,17 +9,23 @@
     tools:context=".LoginActivity">
 
 
+
+
     <TextView
 
-        android:layout_width="match_parent"
+        android:id="@+id/textView"
+
+        android:layout_width="wrap_content"
 
         android:layout_height="wrap_content"
 
-        android:text="@string/login"/>
+        android:text="@string/login" />
 
 
 
     <EditText
+
+        android:id="@+id/editText"
 
         android:layout_width="match_parent"
 
@@ -33,21 +39,37 @@
 
     <TextView
 
-        android:layout_width="match_parent"
+        android:id="@+id/textViewPW"
+
+        android:layout_width="wrap_content"
 
         android:layout_height="wrap_content"
 
-        android:text="@string/password"/>
+        android:text="@string/password" />
 
 
 
     <EditText
+
+        android:id="@+id/editTextPW"
 
         android:layout_width="match_parent"
 
         android:layout_height="wrap_content"
 
         android:inputType="textPassword"/>
+
+
+
+    <Button
+
+        android:id="@+id/button_login"
+
+        android:layout_width="match_parent"
+
+        android:layout_height="wrap_content"
+
+        android:text="@string/login" />
 
 
 

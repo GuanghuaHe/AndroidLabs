@@ -10,6 +10,8 @@
         tools:context=".ListItemsActivity">
 
 
+
+
     <RadioButton
 
         android:id="@+id/radioButton"
@@ -87,6 +89,7 @@
         android:layout_column="1"
 
         android:src="@android:drawable/ic_menu_camera" />
+
 
     </GridLayout>
 
