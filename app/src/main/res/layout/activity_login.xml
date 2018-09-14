@@ -9,30 +9,40 @@
     tools:context=".LoginActivity">
 
     <TextView
+
+        android:id="@+id/textView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/Login" />
+        android:text="@string/login" />
 
     <EditText
+        android:id="@+id/editText"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:hint="Login Name"
-        android:inputType="textEmailAddress" />
+        android:hint="@string/hint"
+        android:inputType="textEmailAddress"/>
 
     <TextView
+        android:id="@+id/textViewPW"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/Password" />
+        android:text="@string/password" />
 
     <EditText
+        android:id="@+id/editTextPW"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:hint="Password"
-        android:inputType="textPassword" />
+        android:inputType="textPassword"/>
 
     <ImageView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:src="@drawable/flag"/>
+
+    <Button
+        android:id="@+id/button_login"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/login" />
 
 </LinearLayout>
