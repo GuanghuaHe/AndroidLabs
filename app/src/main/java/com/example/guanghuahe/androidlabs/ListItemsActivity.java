@@ -51,14 +51,14 @@ public class ListItemsActivity extends Activity {
             @Override
             public void onCheckedChanged(CompoundButton compoundButton, boolean b) {
 
-                CharSequence text = "Switch is off";// "Switch is Off"
+                CharSequence text = "Switch is on";// "Switch is Off"
                 int duration = Toast.LENGTH_SHORT; //= Toast.LENGTH_LONG if Off
 
                 if(b==true) {
                     Toast toast = Toast.makeText(ListItemsActivity.this, text, duration);
                     toast.show();
                 }else {
-                    Toast toast = Toast.makeText(ListItemsActivity.this,"Switch is on", duration);
+                    Toast toast = Toast.makeText(ListItemsActivity.this,"Switch is off", duration);
                     toast.show();
                 }
             }// event click
