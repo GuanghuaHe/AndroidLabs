@@ -24,6 +24,9 @@ import java.util.List;
 
 import static com.example.guanghuahe.androidlabs.LoginActivity.ACTIVITY_NAME;
 
+
+import static com.example.guanghuahe.androidlabs.LoginActivity.ACTIVITY_NAME;
+
 public class ChatWindow extends Activity {
 
     ListView chatV;
@@ -75,13 +78,10 @@ public class ChatWindow extends Activity {
             Log.i(ACTIVITY_NAME, "SQL MESSAGE: " + newMessage);
         }
 
-//
-//        while(!cursor.isAfterLast() )
-//            Log.i(ACTIVITY_NAME, "SQL MESSAGE:" + cursor.getString( cursor.getColumnIndex( ChatDatabaseHelper.KEY_MESSAGE)) );
+        Log.i(ACTIVITY_NAME, "Cursor's column count = " +cursor.getColumnCount());
 
         for (int columnIndex = 0; columnIndex < cursor.getColumnCount(); columnIndex++){
-            cursor.getColumnName(columnIndex);
-            Log.i(ACTIVITY_NAME, "Cursor's column count = " +cursor.getColumnCount());
+            Log.i(ACTIVITY_NAME, "Column Name:" + cursor.getColumnName(columnIndex));
         }
 
 
@@ -150,8 +150,6 @@ public class ChatWindow extends Activity {
             else
                 result = inflater.inflate(R.layout.chat_row_outgoing, null);
 
-
-            //anh xa
 
             TextView message = result.findViewById(R.id.message);
             message.setText(   getItem(position)  ); // get the string at position
