@@ -16,6 +16,12 @@
     <string name="cancel">否</string>
     <string name="chatbutton">开始聊天</string>
     <string name="send_btn"> 发送 </string>
+    <string name="current_temp"> 当前温度 </string>
+    <string name="min_temp"> 最低温度 </string>
+    <string name="max_temp"> 最高温度 </string>
+    <string name="wind_spd"> 风速 </string>
+    <string name="WeatherForecastBTN"> 天气预报</string>
+
 
 
 </resources>

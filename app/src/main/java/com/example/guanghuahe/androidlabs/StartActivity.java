@@ -1,5 +1,7 @@
 package com.example.guanghuahe.androidlabs;
 
+
+
 import android.app.Activity;
 import android.content.Intent;
 import android.os.Bundle;
@@ -11,7 +13,7 @@ import android.widget.Toast;
 import static com.example.guanghuahe.androidlabs.LoginActivity.ACTIVITY_NAME;
 
 public class StartActivity extends Activity {
-    Button btn, btn2;
+    Button btn, btn2,btn3;
 
 
     @Override
@@ -20,8 +22,7 @@ public class StartActivity extends Activity {
         setContentView(R.layout.activity_start);
 
 
-        btn = findViewById(R.id.button);
-
+        AnhXa();
         btn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -36,7 +37,7 @@ public class StartActivity extends Activity {
 
         /* this is lab 4
          */
-        btn2 = findViewById(R.id.ChatButton);
+
         btn2.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -47,7 +48,24 @@ public class StartActivity extends Activity {
         });
 
 
+        btn3.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(StartActivity.this,WeatherForecast.class);
+                startActivity(intent);
+
+            }
+        });
+
+
+
     }// end in on create
+
+    public void AnhXa(){
+        btn2 = findViewById(R.id.ChatButton);
+        btn = findViewById(R.id.button);
+        btn3= findViewById(R.id.WeatherForecastBtn);
+    }
 
 
 
