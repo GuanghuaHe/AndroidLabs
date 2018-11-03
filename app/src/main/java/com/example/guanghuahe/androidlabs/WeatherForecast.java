@@ -36,6 +36,7 @@ public class WeatherForecast extends Activity {
     private TextView maxTempTxt;
     private TextView windSpeedTxt;
     private ImageView weatherImage;
+    private TextView targetLocation;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -50,7 +51,6 @@ public class WeatherForecast extends Activity {
         maxTempTxt = findViewById(R.id.maxTemp);
         weatherImage = findViewById(R.id.WeatherImg);
         windSpeedTxt = findViewById(R.id.windSpeed);
-
         new ForecastQuery().execute(null, null, null);
     }
 
@@ -152,9 +152,9 @@ public class WeatherForecast extends Activity {
         @Override
         protected void onPostExecute(String args){
             progress.setVisibility(View.INVISIBLE);
-            currTempTxt.setText("Current Temperature: " + currTemp + "C");
-            minTempTxt.setText("Min Temperature: " + minTemp + "C");
-            maxTempTxt.setText("Max Temperature: " + maxTemp + "C");
+            currTempTxt.setText("Current Temperature: " + currTemp + "℃");
+            minTempTxt.setText("Min Temperature: " + minTemp + "℃");
+            maxTempTxt.setText("Max Temperature: " + maxTemp + "℃");
             windSpeedTxt.setText("Wind Speed: " +windSpeed + "m/s");
             weatherImage.setImageBitmap(bitmap);
         }
