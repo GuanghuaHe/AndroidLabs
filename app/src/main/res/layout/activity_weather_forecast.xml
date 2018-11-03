@@ -12,33 +12,51 @@
         android:id="@+id/WeatherImg"
         android:layout_width="200dp"
         android:layout_height="200dp"
-        android:src="@drawable/flag"
+        android:layout_gravity="center"
+        android:layout_marginBottom="0dp"
+        android:layout_marginTop="0dp"
 
         />
 
     <TextView
         android:hint="@string/current_temp"
         android:id="@+id/currentTemp"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content" />
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="10dp"
+        android:textColor="@color/colorAccent"
+        android:typeface="monospace" />
 
     <TextView
         android:hint="@string/min_temp"
         android:id="@+id/minTemp"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content" />
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="10dp"
+        android:textColor="@color/colorPrimary"
+        android:typeface="monospace" />
 
     <TextView
         android:hint="@string/max_temp"
         android:id="@+id/maxTemp"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content" />
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="10dp"
+        android:textColor="@color/colorAccent"
+        android:typeface="monospace" />
 
     <TextView
         android:hint="@string/wind_spd"
         android:id="@+id/windSpeed"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content" />
+        android:textColor="@color/colorPrimaryDark"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="10dp"
+        android:typeface="monospace" />
 
     <ProgressBar
         android:visibility="invisible"
@@ -46,7 +64,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         style="?android:attr/progressBarStyleHorizontal"
-
+        android:layout_gravity="center"
         />
 
 
