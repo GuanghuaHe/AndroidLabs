@@ -1,45 +1,38 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout
-    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:paddingBottom="15dp"
-    android:paddingLeft="15dp"
-    android:paddingRight="15dp"
-    android:paddingTop="15dp"
-    xmlns:android="http://schemas.android.com/apk/res/android">
-
+    android:layout_height="match_parent"
+    tools:context="com.example.guanghuahe.androidlabs.ChatWindow">
 
     <ListView
-        android:id="@+id/chatView"
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
+        android:id="@+id/chat"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
         android:layout_alignParentTop="true"
         android:layout_alignParentStart="true"
         android:layout_alignParentEnd="true"
-        android:layout_above="@+id/sendButton"
-
-
-        />
-
-    <Button
-        android:id="@+id/sendButton"
-        android:text="@string/send_btn"
-        android:layout_alignParentEnd="true"
-        android:layout_alignParentBottom="true"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-
-        />
+        android:layout_above ="@+id/send_button"
+        android:layout_marginBottom="59dp" />
 
     <EditText
-        android:id="@+id/chatBoxes"
-        android:layout_width="8dp"
+        android:id="@+id/chatText"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignParentStart="true"
         android:layout_alignParentBottom="true"
-        android:layout_toLeftOf="@+id/sendButton"
-        />
+        android:layout_alignParentStart="true"
+        android:layout_toLeftOf="@+id/send_button"
 
+        android:inputType="text" />
 
+    <Button
+        android:id="@+id/send_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="18dp"
 
+        android:text="@string/Send" />
 </RelativeLayout>

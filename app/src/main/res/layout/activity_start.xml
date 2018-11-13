@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context=".StartActivity">
+    tools:context="com.example.guanghuahe.androidlabs.ChatWindow">
 
     <TextView
         android:layout_width="wrap_content"
@@ -18,21 +18,21 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <Button
-        android:id="@+id/button"
+        android:id="@+id/button1"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="@string/ButtonText" />
 
     <Button
-        android:id="@+id/ChatButton"
+        android:id="@+id/button2"
+        android:text="@string/chat"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="@string/chatbutton" />
+        android:layout_height="wrap_content" />
 
     <Button
-        android:id="@+id/WeatherForecastBtn"
+        android:id="@+id/button3"
+        android:text="@string/weather"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="@string/WeatherForecastBTN" />
+        android:layout_height="wrap_content"/>
 
 </LinearLayout>
