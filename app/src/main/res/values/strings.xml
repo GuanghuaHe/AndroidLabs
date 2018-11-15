@@ -20,8 +20,8 @@
     <string name="max">Max Temperature: </string>
     <string name="min">Min Temperature: </string>
     <string name="wind">Wind Speed: </string>
-    <string name="message">MessageHere</string>
-    <string name="ID">ID=</string>
+    <string name="message">MessageHere:</string>
+    <string name="ID">ID:</string>
     <string name="delete">DELETE THIS MESSAGE</string>
 
 </resources>
