@@ -25,14 +25,20 @@
 
     <Button
         android:id="@+id/button2"
-        android:text="@string/chat"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content" />
+        android:layout_height="wrap_content"
+        android:text="@string/chat" />
 
     <Button
         android:id="@+id/button3"
-        android:text="@string/weather"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"/>
+        android:layout_height="wrap_content"
+        android:text="@string/weather" />
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/title_activity_test_toolbar" />
 
 </LinearLayout>

@@ -1,28 +1,30 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-<string name="app_name">Lab7</string>
-<string name="hello_message">你好世界!</string>
-<string name="ButtonText">按钮</string>
-<string name="login">登入</string>
-<string name="login_name">用户名</string>
-<string name="passwd">密码</string>
-<string name="switch1">这是干什么的？</string>
-<string name="check">勾选</string>
-<string name="radio">切换</string>
-<string name="dialog_message">你要完成当前活动么？</string>
-<string name="dialog_title">退出活动</string>
-<string name="ok">好的</string>
-<string name="cancel">取消</string>
-<string name="chat">开始聊天</string>
-<string name="Send">发送</string>
-<string name="title_activity_weather_forcast">天气预报</string>
-<string name="weather">天气预报</string>
-<string name="current">当前温度: </string>
-<string name="max">最高温度: </string>
-<string name="min">最低温度: </string>
-<string name="wind">风速: </string>
-<string name="message">显示信息</string>
-<string name="ID">ID=</string>
-<string name="delete">删除信息</string>
-
+    <string name="app_name">Lab8</string>
+    <string name="hello_message">你好世界!</string>
+    <string name="ButtonText">按钮</string>
+    <string name="login">登入</string>
+    <string name="login_name">用户名</string>
+    <string name="passwd">密码</string>
+    <string name="switch1">这是干什么的？</string>
+    <string name="check">勾选</string>
+    <string name="radio">切换</string>
+    <string name="dialog_message">你要完成当前活动么？</string>
+    <string name="dialog_title">退出活动</string>
+    <string name="ok">好的</string>
+    <string name="cancel">取消</string>
+    <string name="chat">开始聊天</string>
+    <string name="Send">发送</string>
+    <string name="title_activity_weather_forcast">天气预报</string>
+    <string name="weather">天气预报</string>
+    <string name="current">当前温度: </string>
+    <string name="max">最高温度: </string>
+    <string name="min">最低温度: </string>
+    <string name="wind">风速: </string>
+    <string name="message">显示信息</string>
+    <string name="ID">ID=</string>
+    <string name="delete">删除信息</string>
+    <string name="title_activity_test_toolbar">测试工具栏</string>
+    <string name="TestToolbarDialog">你要返回么?</string>
+    <string name="newMessage">新信息</string>
 </resources>
